@@ -1,0 +1,36 @@
+.container {
+    background-color: whitesmoke;
+    height: 100vh;
+    max-width: 1400px;
+    /* border: solid 1px black; */
+    box-shadow: 5px 10px #8888;
+    margin: auto;
+    border-radius: 2.5%;
+}
+.header-name {
+    box-shadow: inset 4px 2px #8888;
+    border-radius: 7%;
+    padding: 5px;
+    max-height: 250px;
+}
+.header-name h1, h2 {
+    text-align: center;
+}
+.top-nav-bar li {
+    display: inline;
+    padding: 30px;
+    margin: 5%;
+}
+.top-nav-bar ul {
+    padding: 5px;
+    text-align: center;
+}
+.top-nav-bar {
+    position: sticky;
+    top: 0;
+}
+.top-nav-bar li a {
+    text-decoration: none;
+    color: darkblue;
+    font-size: larger;
+}
